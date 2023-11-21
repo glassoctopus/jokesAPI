@@ -6,8 +6,9 @@ import getJoke from '../api/promises';
 import renderToDom from '../utils/renderToDom';
 
 const init = () => {
-  document.querySelector('#jokeSetup').innerHTML = `
+  document.querySelector('#app').innerHTML = `
     <button class="btn btn-danger" id="jokeStart">Get A Joke</button><br />
+    
   `;
   console.warn('YOU ARE UP AND RUNNING!');
 
